@@ -11,9 +11,9 @@ class cseRocksTest {
 		int res = r.add(2, 3);
 		assertEquals(5,res);
 	}
-//	@Test
-//	void test2() {
-//		int res = r.mul(2, 3);
-//		assertEquals(6,res);
-//	}
+	@Test
+	void test2() {
+		int res = r.mul(2, 3);
+		assertEquals(6,res);
+	}
 }
