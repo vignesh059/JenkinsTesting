@@ -13,6 +13,6 @@ class cseRocksTest {
 	}
 	void test2() {
 		int res = r.mul(2, 3);
-		assertEquals(5,res);
+		assertEquals(9,res);
 	}
 }
