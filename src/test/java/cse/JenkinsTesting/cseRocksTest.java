@@ -13,7 +13,7 @@ class cseRocksTest {
 	}
 	@Test
 	void test2() {
-		int res = r.mul(2, 3);
-		assertEquals(6,res);
+		int res = r.mul(3, 3);
+		assertEquals(9,res);
 	}
 }
